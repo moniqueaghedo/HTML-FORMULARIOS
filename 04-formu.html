@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Formulario</title>
+<!-- <link href="estilos.css" rel="stylesheet" type="text/css"> -->
+</head>
+
+<body>
+
+	<div id="container">
+	<h1>Formulario</h1>
+		<form id="form1" name="form1" method="post" action="mailto:nombre@gmail.com">
+			<fieldset>
+				<legend>Datos Personales</legend>
+				<label for="Nombre">Nombre:</label>
+				<input type="text" name="Nombre" id="nom" required tabindex="1">
+				<br>
+				<label for="Apellidos">Apellidos:</label>
+				<input type="text" name="Apellidos" id="ape" tabindex="2" placeholder="Apellidos">
+				<br>
+				<label for="Telefono">Teléfono:</label>
+				<input type="number" name="Telefono" id="tel" required tabindex="3">
+				<br>
+				<label for="E-mail">E-mail:</label>
+				<input type="email" name="E-mail" id="ema" tabindex="4">
+				<br>
+				<label for="Direccion">Dirección:</label>
+				<input type="text" name="Direccion" id="dire" tabindex="5">
+				<br>
+				<label for="Poblacion">Población:</label>
+				<input type="text" name="Población" id="poblacion" tabindex="6">
+				<label for="Codigo Postal">Código Postal:</label>
+				<input type="number" name="Código Postal" id="codpost" tabindex="7">
+				<br>
+				<label for="provincia">Provincia:</label>
+				
+				<select name="porvincia" id="provincia">
+				<option value="ninguna">Elija una opción</option>
+				<option value="gipuzkoa">Gipuzkoa</option>
+				<option value="barcelona">Barcelona</option>
+				<option value="madrid">Madrid</option>
+				</select>
+
+				<br>
+				<label for="Provincia">Idioma:</label>
+				<br>
+				<div class="col">
+					<input type="checkbox" name="idioma" id="Castellano" value="Castellano">
+					<label for="Castellano">Castellano</label>
+					<br>
+					<input type="checkbox" name="idioma" id="Euskera" value="Euskera">
+					<label for="Euskera">Euskera</label>
+					<br>
+					<input type="checkbox" name="idioma" id="Catalan" value="Catalan">
+					<label for="Catalan">Catalán</label>
+				</div>
+				<div class="col">
+					<input type="checkbox" name="idioma" id="Italiano" value="Italiano">
+					<label for="Italiano">Italiano</label>
+					<br>
+					<input type="checkbox" name="idioma" id="Frances" value="Frances">
+					<label for="Frances">Francés</label>
+					<br>
+					<input type="checkbox" name="idioma" id="Portugues" value="Portugues">
+					<label for="Portugues">Portugués</label>
+				</div>
+				<div class="col">
+					<input type="checkbox" name="idioma" id="Arabe" value="Arabe">
+					<label for="Arabe">Árabe</label>
+					<br>
+					<input type="checkbox" name="idioma" id="Chino" value="Chino">
+					<label for="Chino">Chino</label>
+					<br>
+					<input type="checkbox" name="idioma" id="Japones" value="Japones">
+					<label for="Japones">Japonés</label>
+				</div>
+			</fieldset>
+			<fieldset id="otros">
+				<legend>Otros Datos</legend>
+				<label for="info">Sí, deseo recibir información publicitaria</label>
+				<input type="checkbox" name="info" id="info" tabindex="8">
+				<br>
+				<label for="resp">Respuesta por:</label>
+				<br>
+				<input type="radio" name="post" id="post">
+				<label for="correo postal">Correo Postal</label>
+				<br>
+				<input type="radio" name="post" id="mail" checked>
+				<label for="mail">Email</label>
+				<br>
+				<input type="radio" name="post" id="fax">
+				<label for="fax">Fax</label>
+				<br>
+				<label for="Disponibilidad telefónica:">Disponibilidad telefónica:</label>
+				<select name="disponibilidad" id="dispo">
+					<option value="08:00-11:00">08:00-11:00</option>
+					<option value="11:00-15:00">11:00-15:00</option>
+					<option value="16:00-20:00">16:00-20:00</option>	
+				</select>
+			</fieldset>
+			<fieldset>
+				<legend>Asunto</legend>
+				<label for="asunto">Asunto</label>
+				<input type="text" name="asunto" id="asun" tabindex="9" class="gris">
+				<br>
+				<label for="observaciones">Observaciones:</label>
+				<textarea name="Observaciones" id="obs"></textarea> 		
+			</fieldset>
+			<input type="submit" name="enviar" id="enviar" value="Enviar" class="boton">
+			<input type="reset" name="restablecer" id="restablecer" value="Restablecer" class="boton">
+
+		</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        /* estilos para input con icono */
+
+        .cajaIcono {
+            position: relative;
+            margin : 5px 20px;
+        }
+        .ico {
+            position : absolute;
+            top: 7px;
+            left : 6px;
+            width: 15px;
+        }
+        .inputIcono {
+            padding-left : 25px;
+            height: 30px;
+            border-radius:5px;
+            background-color: antiquewhite;
+            cursor:row-resize;
+        }
+
+        .inputIcono:hover{
+            background-color: aquamarine;
+        }
+
+        /* estilo para navegacion */
+
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam vitae nisi, officia dolore laudantium est eos itaque pariatur possimus sed qui accusamus porro minima, adipisci quas hic illum nemo cupiditate!</p>
+    <div class="cajaIcono">
+        <img src="img/usuario.png" class="ico">
+        <input type="text" name="usuario"  id="usuario" placeholder="Introduce tu nombre de usuario" required class="inputIcono">
+        
+     </div>
+     <!-- Copia del input usuario-->
+    <div class="cajaIcono">
+        <img src="img/icons8-credenciales-de-usuario-30.png" class="ico">
+        <input type="password" name="password"  id="password" placeholder="Introduce contraseña" required class="inputIcono">
+    </div>
+    <!-- input yipo calendario -->
+     <div class="cajaIcono">
+        <img src="img/icons8-credenciales-de-usuario-30.png" class="ico">
+        <input type="date" name="nacimiento"  id="nacimiento"  class="inputIcono">
+     </div>
+    
+</body>
+</html>
