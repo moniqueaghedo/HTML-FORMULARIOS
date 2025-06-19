@@ -18,7 +18,7 @@
             padding: 20px;
             background-color: #fff;
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 250px rgba(0, 0, 0, 0.1);
         }
 
         label {
@@ -39,7 +39,7 @@
         }
 
         textarea {
-            resize: vertical;
+           /*  resize: vertical; */
         }
 
         select {
@@ -74,7 +74,7 @@
             border: none;
             border-radius: 4px;
           /*   cursor: pointer; */
-        }
+        /* } */
 
         input[type="submit"]:hover {
             background-color: #45a049;
@@ -85,13 +85,9 @@
 
     <form>
         <fieldset>
-            <legend>Entrada de Texto</legend>
+            <legend>Datos Personales</legend>
             <label for="texto">Entrada de texto</label>
             <input id="texto" name="texto" type="text" placeholder="Entrada de texto" value="">
-        </fieldset>
-
-        <fieldset>
-            <legend>Correo</legend>
             <label for="correo">Correo</label>
             <input id="correo" name="correo" type="email" placeholder="Entrada de correo" value="">
         </fieldset>

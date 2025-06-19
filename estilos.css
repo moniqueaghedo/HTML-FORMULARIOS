@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+#container{
+	max-width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1{
+	background-color: rgba(191,191,191,1.00);
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 30px;
+	color: rgba(245,161,23,1.00);
+	margin-bottom: 10px;
+}
+legend{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color: rgba(245,161,23,1.00);
+	font-size: 16px;
+}
+#form1{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 14px;
+}
+#form1 fieldset{
+	border: 1px solid rgba(62,61,61,1.00);
+	padding: 25px;
+}
+#form1 label{
+	display: block;
+	width: 150px;
+	float: left;
+	margin: 5px;
+}
+#form1 input{
+	display: block;
+	float: left;
+	width: 250px;
+	height: 20px;
+	margin: 5px;
+	}
+
+#form1 select{
+	display: block;
+	float: left;
+	width: 250px;
+	height: 20px;
+	margin: 5px;
+}
+#form1 .col input{
+	width: 50px;
+}
+#form1 br{clear: both;}
+#form1 input.boton{
+	background-color: rgba(245,161,23,1.00);
+	border: 1px solid rgba(0,0,0,1.00);
+	width: 150px;
+	height: 30px;
+	text-align: center;
+	margin-right: 10px;
+}
+
+#form1 #otros label{
+	width: 250px;
+}
+#form1 #otros input{
+	width: 50px;
+	height: 14px;
+	margin: 5px;
+}
+
+#form1 textarea, .gris{
+	background-color: rgba(173,173,173,1.00);
+	border: 1px solid rgba(0,0,0,1.00);
+}
+.col{
+	float: left;
+	width: 33%;
+}
+.wid50{width: 50px;}
+.wid150{width: 150px;}
+.wid250{width: 250px;}
+
+
